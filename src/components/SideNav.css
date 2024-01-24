@@ -1,0 +1,45 @@
+/* SideNav.css */
+.side-nav {
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    color: gray;
+    border-radius: 5px !important;
+    
+  }
+  
+  .side-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .side-nav li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  .side-nav li span {
+    padding: 10px;
+    cursor: pointer;
+    padding-top: 2px !important;
+  }
+  
+  .side-nav li:hover {
+    background-color: #fff;
+  }
+
+
+  /* navbar styling */
+
+  .classcenter{
+    text-align: center;
+    padding: 10px;
+    padding-top: 2px;
+    border-bottom: 1px solid gray;
+    font-size: 14px !important;
+  }
+  .classcenter:hover,.classcenter:active{
+    color: green;
+  }
+  
+  
