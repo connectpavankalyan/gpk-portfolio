@@ -1,18 +1,21 @@
 
 .profile-main{
     background-color: #fff;
-    margin-left: 15px;
+    border-radius: 5px !important;
+    margin-left: -9px !important;
 }
 .profilecontent{
     padding-bottom: 25px;
     padding-top: 15px;
     padding-left: 20px;
     padding-right: 20px;
+    text-align: center !important;
 
 }
 .rounded-circle{
     border-radius: 250px;
     box-shadow:0px 1px 1px #557c72;
+    margin-left: 230px !important;
 }
 .profile{
     background-image: radial-gradient(circle, #c4bdc2, #aca8ad, #969398, #807f83, #6b6b6e, #626365, #595a5d, #515254, #515355, #515455, #515455, #515555);
@@ -22,6 +25,7 @@
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
     box-shadow: -10px -10px #557c72;
+    align-items: center !important;
 }
 .title {
     position: relative;
@@ -76,4 +80,8 @@
 .scroll-text .letter {
     display: inline-block;
     line-height: 1em;
+}
+
+.margintop{
+    margin-top: 10px !important;
 }

@@ -57,7 +57,7 @@ const Profile = () => {
           
             <div className="title">GOLLA PAVAN KALYAN</div>
             <div className="designation scroll-text"><p>Full Stack Developer</p></div>
-            <div>
+            <div className='margintop'>
                 <Router>
   
                   <a className='links icons-size' href="https://www.linkedin.com/in/pavan-kalyan-golla-38a3071b6" target="_blank" rel="noopener noreferrer">

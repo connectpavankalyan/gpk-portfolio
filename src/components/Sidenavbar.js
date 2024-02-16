@@ -1,6 +1,6 @@
 // SideNav.js
 import React from 'react';
-import './SideNav.css';
+import '../App/CSS/SideNav.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser } from '@fortawesome/free-solid-svg-icons'; // Import the faUser icon
@@ -11,8 +11,8 @@ const SideNav = () => {
     <div className="side-nav">
       <ul>
         <li className='classcenter'>
-        <FontAwesomeIcon icon={faUser} size="1x" /><br/><span>ABOUT</span></li>
-
+          <FontAwesomeIcon icon={faUser} size="1x" /><br/><span>ABOUT</span>
+        </li>
         <li className='classcenter'>RESUME</li>
         <li className='classcenter'>PROJECTS</li>
         <li className='classcenter'>BLOG</li>
