@@ -69,15 +69,15 @@ const Profile = () => {
                   <a className='links icons-size' href="https://twitter.com/GollaPavanKaly2" target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faTwitter} />
                   </a>
-                  <a className='links icons-size' href="https://api.whatsapp.com/send?phone=+918019735720" target="_blank" rel="noopener noreferrer">
+                  <a className='links icons-size' href="https://wa.me/+918019735720" target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faWhatsapp} />
                   </a>
-                  <a className='links icons-size' href="https://instagram.com/pavan__golla?igshid=1q98onrtyfcm8" target="_blank" rel="noopener noreferrer">
+                  <a className='links icons-size' href="https://www.instagram.com/pavan_._._yadav/" target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faInstagram}  />
                   </a>
                   <div className="mt-3 border-line-h"></div>
                   <div className='download-btn-div'>
-                    <a className='links icons-size download-btn mt-3' href="https://instagram.com/pavan__golla?igshid=1q98onrtyfcm8" target="_blank" rel="noopener noreferrer">
+                    <a className='links icons-size download-btn mt-3' href="#" target="_blank" rel="noopener noreferrer">
                       <span>Download CV</span> <FontAwesomeIcon icon={faDownload} /> 
                     </a>
                   </div>

@@ -1,3 +1,4 @@
+import {useState} from 'react'
 import logo from './logo.svg';
 import './App.css';
 import './Custom.css';
@@ -9,6 +10,12 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 function App() {
   
+  const [isDetailsVisible, setIsDetailsVisible] = useState(false);
+
+  const handleClick = () => {
+    setIsDetailsVisible(!isDetailsVisible);
+  };
+
   return (
   
     <div className='container-fluid main'>
@@ -16,7 +23,7 @@ function App() {
       <div className='row'>
         
         <div className='col-1'>
-          <SideNav/>
+          <SideNav handleClick={handleClick} />
         </div>
         
         <div className='col-4'>
@@ -24,7 +31,7 @@ function App() {
         </div>
 
         <div className='col-7'>
-          <Details/>
+          <Details isVisible={isDetailsVisible} />
         </div>
 
       </div>
